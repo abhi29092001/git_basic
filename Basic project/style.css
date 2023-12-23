@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Doodle+Shadow&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("bg.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: auto;
+}
+
+h1 {
+  font-size: 78px;
+  letter-spacing: 0.2em;
+  color: rgb(194, 182, 182);
+  font-family: "Rubik Doodle Shadow";
+}
